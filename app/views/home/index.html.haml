@@ -1,2 +1,6 @@
 %h1 Home#index
-%p Find me in app/views/home/index.html.haml
+
+- if current_user
+  %h3 I am logged in and rails is happy
+- else
+  %h3 I am not logged in -- rails is sad
