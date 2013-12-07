@@ -39,6 +39,8 @@ GEM
     execjs (2.0.2)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
+    haml (4.1.0.alpha.2)
+      tilt
     hashie (2.0.5)
     hike (1.2.3)
     httpauth (0.2.0)
@@ -131,6 +133,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  haml
   jbuilder (~> 1.2)
   jquery-rails
   omniauth
